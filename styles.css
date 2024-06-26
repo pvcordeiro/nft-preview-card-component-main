@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit";
+  font-weight: normal;
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 324px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 1.2em;
+  border-radius: 1em;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.nft-image {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: 1.2em;
+  padding: 0.9em 0;
+}
+
+p {
+  color: hsla(215, 51%, 70%, 0.7);
+  font-size: 0.9em;
+  font-weight: 300;
+  padding-bottom: 0.7em;
+}
+
+.eth-days {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em 0;
+}
+
+.eth-days img {
+  vertical-align: -2px;
+}
+
+.eth span {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+  padding-left: 0.5em;
+  font-size: 0.9em;
+}
+.days span {
+  color: hsla(215, 51%, 70%, 0.8);
+  font-weight: 300;
+  padding-left: 0.5em;
+  font-size: 0.9em;
+}
+
+.credit {
+  border-top: 1px solid hsl(215, 32%, 27%);
+  display: flex;
+  align-items: center;
+  padding-top: 1em;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.credit img {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  padding-left: 0.3em;
+}
+.creation {
+  padding-left: 1em;
+}
+
+.attribution {
+  font-size: 0.5em;
+  text-align: center;
+  padding-top: 2em;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
