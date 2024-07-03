@@ -98,10 +98,14 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 0.8em 0;
+  display: flex;
+  align-items: center;
+  
 }
 
-.eth-days img {
-  vertical-align: -2px;
+.eth, .days {
+  display: flex;
+  align-items: center;
 }
 
 .eth span {
@@ -109,6 +113,7 @@ p {
   font-weight: 400;
   padding-left: 0.5em;
   font-size: 0.9em;
+  
 }
 .days span {
   color: hsla(215, 51%, 70%, 0.8);
